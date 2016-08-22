@@ -5,6 +5,7 @@ var Tasks = function(input){
 //////////
 $(function(){
   $("form").submit(function(event){
+
     event.preventDefault();
     var taskInput = $("#taskInput").val();
     var newTask = new Tasks(taskInput);
@@ -14,8 +15,9 @@ $(function(){
       $(this).parent().toggleClass("completed");
     });
     $(".glyphicon-remove").click(function(){
-      $(this).parent().remove();
+      $(this).parent().addClass("falling");
     });
+    $("button").toggleClass("rotate");
   });
 
 });

@@ -1,34 +1,65 @@
-h2 {
-	font-size: 50px;
+h1 {
+	font-size: 20px;
+	margin: 10px;
 }
 
+ul {
+ list-style: none;
+ font-size: 18px;
+ margin: 15px;
+ background: rgba(0, 0, 0, 0.8);
+ color: white;
+ border-radius: 5px;
+}
 
-.well{
-	width: 600px;
-	margin-top: 40%;
+button {
+	margin-left: 10px;
 }
-.myForm{
-	background-color: #ccccff;
+
+form {
+	background: rgba(0, 0, 0, 0.7) !important
 }
-.container{
-	display: block;
-	margin:auto;
-	width: 600px;
-	height: auto;
+
+.falling {
+	transform: translate(0, 1000px);
+	transition: all 1s;
 }
-.completed{
+
+.well {
+	width: 880px;
+	height: 905px;
+	background: url("../img/multitasking.jpg") center center no-repeat !important;
+  background-attachment: fixed;
+	margin-left: 200px;
+	margin-top: 100px;
+}
+
+.rotate {
+	transform: rotate(1440deg);
+	transition: all 1s;
+}
+
+.form-control {
+	margin: 10px;
+	width: 50%;
+}
+
+.completed {
 	text-decoration: line-through;
 }
-ul{
- list-style: none;
- font-size: 3em;
-}
+
 .glyphicon {
-	font-size: 28px;
+	font-size: 20px;
 }
-.glyphicon-remove{
-	color: red;
+
+.glyphicon-remove {
+	color: #F0C231;
 }
-.glyphicon-ok{
-	color: green;
+
+.glyphicon-ok {
+	color: #4D877A;
+}
+
+.btn {
+	background-color: #BCC17A;
 }
