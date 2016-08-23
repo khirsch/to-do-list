@@ -1,8 +1,9 @@
+//Business Logic
 var Tasks = function(input){
   this.input = input;
 }
 
-//////////
+//User Interface Logic
 $(function(){
   $("form").submit(function(event){
 
