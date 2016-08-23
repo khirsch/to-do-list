@@ -53,13 +53,14 @@ form {
 }
 
 .glyphicon-remove {
-	color: #F0C231;
+	color: #258C7C;
 }
 
 .glyphicon-ok {
-	color: #4D877A;
+	color: #F6C700;
 }
 
 .btn {
-	background-color: #BCC17A;
+	background: rgba(0, 0, 0, 0.8);
+	color: white;
 }
