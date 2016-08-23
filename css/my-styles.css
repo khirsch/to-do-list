@@ -1,19 +1,20 @@
 h1 {
-	font-size: 20px;
+	font-size: 24px;
+	font-weight: bold;
 	margin: 10px;
+	padding-bottom: 10px;
 }
 
 ul {
- list-style: none;
  font-size: 18px;
- margin: 15px;
+ margin: 10px;
  background: rgba(0, 0, 0, 0.8);
  color: white;
  border-radius: 5px;
 }
 
-button {
-	margin-left: 10px;
+li {
+	margin: 5px;
 }
 
 form {
@@ -41,10 +42,11 @@ form {
 
 .completed {
 	text-decoration: line-through;
+	font-weight: lighter;
 }
 
 .glyphicon {
-	font-size: 20px;
+	font-size: 18px;
 }
 
 .glyphicon-remove {
@@ -58,4 +60,5 @@ form {
 .btn {
 	background: rgba(0, 0, 0, 0.8);
 	color: white;
+	margin-left: 10px;
 }
