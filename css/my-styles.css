@@ -20,11 +20,6 @@ form {
 	background: rgba(0, 0, 0, 0.7) !important
 }
 
-.falling {
-	transform: translate(0, 1000px);
-	transition: all 1s;
-}
-
 .well {
 	width: 880px;
 	height: 905px;
